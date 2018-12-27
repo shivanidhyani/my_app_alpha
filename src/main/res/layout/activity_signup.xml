@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".SignupActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@drawable/men">
+
+        <EditText
+            android:id="@+id/name"
+            android:textColorHint="#ffffff"
+            android:layout_marginRight="120dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:hint="Name"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:background="@drawable/buttonstyleselector"
+            android:onClick="screen2"
+            android:fontFamily="sans-serif-smallcaps"
+            android:backgroundTint="@color/Loginc"
+            android:accessibilityLiveRegion="assertive"
+            android:clickable="true"
+            android:layout_height="40dp"
+            android:layout_width="200dp"
+            android:textStyle="italic"
+            android:text="SignUp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:elevation="0dp"
+            android:id="@+id/button4"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="75dp"
+            android:layout_below="@+id/confirmpassword"
+            android:layout_alignLeft="@+id/name"
+            android:layout_alignStart="@+id/name" />
+
+        <EditText
+            android:id="@+id/confirmpassword"
+            android:textColorHint="#ffffff"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="-20dp"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_marginTop="57dp"
+            android:layout_below="@+id/password"
+            android:layout_alignLeft="@+id/name"
+            android:layout_alignStart="@+id/name" />
+
+        <EditText
+
+            android:id="@+id/age"
+            android:textColorHint="#ffffff"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Age"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_below="@+id/name"
+            android:layout_alignLeft="@+id/name"
+            android:layout_alignStart="@+id/name" />
+
+        <EditText
+            android:id="@+id/password"
+
+            android:textColorHint="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="-30dp"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Password"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_below="@+id/email"
+            android:layout_alignLeft="@+id/confirmpassword"
+            android:layout_alignStart="@+id/confirmpassword"
+            android:layout_marginTop="56dp" />
+
+        <EditText
+
+            android:id="@+id/email"
+            android:textColorHint="#ffffff"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="60dp"
+            android:layout_marginBottom="-30dp"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_below="@+id/age"
+            android:layout_alignLeft="@+id/age"
+            android:layout_alignStart="@+id/age" />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

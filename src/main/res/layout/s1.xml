@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_marginTop="54dp"
+        android:layout_width="375dp"
+        android:layout_height="170dp"
+        android:background="@drawable/a3"
+        android:onClick="Grooming"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/name"
+        android:textColorHint="#000000"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="Daily life hacks"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <ImageButton
+        android:layout_marginTop="35dp"
+        android:layout_width="375dp"
+        android:layout_height="170dp"
+        android:background="@drawable/a2"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "148619515157",
+    "firebase_url": "https://alpha-f05e3.firebaseio.com",
+    "project_id": "alpha-f05e3",
+    "storage_bucket": "alpha-f05e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148619515157:android:a0a0ca5a72f9a321",
+        "android_client_info": {
+          "package_name": "com.azurewebsites.httpsinnovation21.alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148619515157-a8cfq1de7aaalqqeu9s37ct188k5udab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjyTmQwNltmnMqSo9wl0qrWc7mB46bYS4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
